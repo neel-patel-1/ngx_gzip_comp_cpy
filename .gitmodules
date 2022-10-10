@@ -1,0 +1,3 @@
+[submodule "nginx-gzip_offload"]
+	path = nginx-gzip_offload
+	url = git@github.com:neelpatelbiz/nginx-gzip_offload.git

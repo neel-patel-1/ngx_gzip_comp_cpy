@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo rm -rf nginx_gzip_build
 cd nginx-gzip_offload
-./configure --add-module=$(pwd)/../ngx_http_catch_body_filter_module-ae29daca3f0e --prefix=$(pwd)/../nginx_gzip_build 
+./configure --add-module=$(pwd)/../ngx_http_catch_body_filter_module --prefix=$(pwd)/../nginx_gzip_build 
 make -j 30
 make -j 30 install 
 cd ../
